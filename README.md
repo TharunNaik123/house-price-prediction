@@ -1,5 +1,5 @@
 # House Price Prediction
-Requirements
+Requirements.txt
 pandas
 numpy
 scikit-learn
