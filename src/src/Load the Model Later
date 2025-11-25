@@ -1,0 +1,9 @@
+import pickle
+import numpy as np
+
+with open("house_price_model.pkl", "rb") as f:
+    model = pickle.load(f)
+
+sample = np.array([[3, 1200, 10, 8.5]])  # rooms, area, age, distance
+prediction = model.predict(sample)
+print("Predicted Price (Lakhs):", prediction[0])
