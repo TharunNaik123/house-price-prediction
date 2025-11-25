@@ -1,9 +1,9 @@
 # House Price Prediction
-Requirements.txt
-pandas
-numpy
-scikit-learn
-pickle-mixin
+Requirements
+1.pandas
+2.numpy
+3.scikit-learn
+4.pickle-mixin
 
 ### Tasks completed 
 This project predicts house prices using Linear Regression.
